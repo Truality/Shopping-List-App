@@ -1,8 +1,83 @@
-.masthead-heading, .masthead-intro {
+.header, .main {
 	text-align: center;
 }
 
 .cart-image {
-	margin-top: 40px;
-	margin-left: 640px;
+	margin-top: 25px;
+}
+
+p {
+	margin: 20px auto 0px auto;
+}
+
+h1 {
+	margin: 0px auto 0px auto;
+	font-family: Sigmar One;
+	font-size: 45px;
+}
+
+h2 {
+	margin-top: 0px;
+	font-family: Handlee;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+hr {
+	background-color: #D0D0D0;
+	border: none;
+	border-radius: 15px;
+	height: 3px;
+	width: 150px;
+	margin-bottom: 20px;
+}
+
+.blue-text {
+	color: #1D78CF;
+}
+
+.cross-out {
+	text-decoration: line-through;
+}
+
+.main {
+	padding-top: 15px;
+	margin: 10px auto auto auto;
+	font-family: Handlee;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #E8E8E8;
+}
+
+#add-item {
+  background-color: #1D78CF;
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  font-family: Handlee;
+  font-size: 22px;
+  text-align: center;
+  height: 30px;
+  margin: 20px 10px 10px 10px;
+  width: 200px;
+}
+
+button {
+  background-color: #1D78CF;
+  border: none;
+  width: 130px;
+  border-radius: 15px;
+  color: #D0D0D0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Handlee;
+  font-size: 20px;
+  height: 30px;
+  margin: 20px 10px 20px 10px; 
+}
+
+.footer {
+	height: 100px;
+	margin-top: 0px;
+	background-color: #D0D0D0;
 }
