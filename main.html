@@ -2,21 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Shopping List App</title>
-	<link rel="stylesheet" href="css/style.css">	
+	<link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Shopping List App</title>	
 </head>
 <body>
-	<header class= "masthead">
-		<img class="cart-image" src="canstockphoto11106837.jpg" 			
-			width="135px"
-            style="height: 120px;">
-            <h1 class= "masthead-heading">Shopping List</h1>
-            <p class="masthead-intro">By Alex Perez</p>
-  	</header>
+	<div class= "header">
+		<img class="cart-image" src="canstockphoto11106837.jpg"
+		width="135px"
+		style="height: 120px;">
 
-	<list class= "add items">
-		<p>Input item, then press "enter"</p>
-	</list>
+<h1 class="blue-text">Shopping List</h1>
+           
+            <h2>By Alex Perez</h2>
+            	<hr>
+  	</div>
+
+	<div class= "main">
+		<p>Add item into textbox below, then press "enter"</p>
+		<input id="add-item" type="text" name="add-item" autocomplete="off" placeholder="+ Add item">
+		<p>bread</p>
+		<p><span class="cross-out">eggs</span></p>
+		<p><span class="cross-out">milk</span></p>
+		<p>juice</p>
+		<button name="reset" id="reset" class="button">Reset List</button>
+	</div>
+	<div class="footer">
+	</div>
 	
 </body>
 </html>
